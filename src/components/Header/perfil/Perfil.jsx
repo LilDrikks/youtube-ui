@@ -1,10 +1,8 @@
 import React from 'react'
-import {BsBell} from 'react-icons/bs'
-import {RxAvatar} from 'react-icons/rx'
-import Avatar from './Avatar.jsx'
-import Bell from './Bell.jsx'
+import Avatar from '../../../assets/svgs/Avatar'
+import Bell from '../../../assets/svgs/Bell.jsx'
 import Button from './Button.jsx'
-import Cam from './Cam.jsx'
+import Cam from '../../../assets/svgs/Cam.jsx'
 
 function Perfil() {
   return (

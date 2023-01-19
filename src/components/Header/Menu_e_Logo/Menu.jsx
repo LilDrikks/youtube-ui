@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../perfil/Button'
-import Logo from './Logo'
-import MenuSvg from './MenuSvg'
+import Logo from '../../../assets/svgs/Logo'
+import MenuSvg from '../../../assets/svgs/MenuSvg'
 
 function Menu() {
   return (
