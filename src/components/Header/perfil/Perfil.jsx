@@ -1,17 +1,23 @@
 import React from 'react'
 import {BsBell} from 'react-icons/bs'
+import {RxAvatar} from 'react-icons/rx'
+import Avatar from './Avatar.jsx'
+import Bell from './Bell.jsx'
+import Button from './Button.jsx'
+import Cam from './Cam.jsx'
+
 function Perfil() {
   return (
-    <div className='flex justify-end gap-3 w-full'>
-      <button className='rounded-full '>
-        <BsBell />
-      </button>
-      <button>
-        <img src="" alt="bell" />
-      </button>
-      <button className='bg-white rounded-full w-8 h-8'>
-        <img src="" alt="avatar" />
-      </button>
+    <div className='flex gap-3 w-100'>
+      <Button >
+        <Cam />
+      </Button>
+      <Button> 
+        <Bell />
+      </Button>
+      <Button>
+        <Avatar />
+      </Button>
     </div>
   )
 }
