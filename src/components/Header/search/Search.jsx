@@ -5,8 +5,6 @@ import keyboard from '../../../assets/keyboard.png'
 
 function Search() {
     const [span, setSpan] = useState(false)
-    
-    console.log(span)
   return (
     <div className='flex w-100 h-10 w-full justify-center'>
         <div className={`max-w-[540px] w-full flex items-center bg-[#121212] rounded-l-full w-100 h-10 overflow-hidden border-[0.1px] ${span ? 'border-[rgb(28,98,185)]' : 'border-[#2d2d2d]'}`}>

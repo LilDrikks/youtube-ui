@@ -1,8 +1,4 @@
-import React from 'react'
-
-function Logo() {
-  return (
-    <svg
+<svg
       viewBox="0 0 90 20"
       preserveAspectRatio="xMidYMid meet"
       focusable="false"
@@ -58,7 +54,3 @@ function Logo() {
         </g>
       </g>
     </svg>
-  )
-}
-
-export default Logo
