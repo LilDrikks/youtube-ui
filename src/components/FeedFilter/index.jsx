@@ -30,14 +30,11 @@ function FeedFilter() {
         if(e.deltaY > 0){
           if(scroll < -1700) return
           setScroll(scroll -100)
-          e.currentTarget.style.transform = `translateX(${scroll}px)`
         }else{
           if(scroll > -100) return
           setScroll(scroll +100)
-          e.currentTarget.style.transform = `translateX(${scroll}px)`
         }
     }
-
 
   return (
     <div className="overflow-hidden">
