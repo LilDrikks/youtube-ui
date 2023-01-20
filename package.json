@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && build:css",
+    "build:css": "tailwindcss -m -i ./styles/app.css -o app/styles/app.css",
     "preview": "vite preview"
   },
   "dependencies": {
