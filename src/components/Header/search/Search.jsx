@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import SearchIcon from '../../../assets/svgs/SearchIcon'
-import Speak from '../../../assets/svgs/speak'
+import Speak from '../../../assets/svgs/Speak'
 import keyboard from '../../../assets/keyboard.png'
 
 function Search() {
