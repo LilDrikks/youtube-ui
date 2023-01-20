@@ -27,8 +27,11 @@ function FeedFilter() {
   const [scroll, setScroll] = useState(0)
 
     function handleScroll(e) {
+      const element = e.currentTarget
+        console.log(element.clientWidth)
+
         if(e.deltaY > 0){
-          if(scroll < -1700) return
+          if(scroll < -1400) return
           setScroll(scroll -100)
         }else{
           if(scroll > -100) return
@@ -39,7 +42,7 @@ function FeedFilter() {
   return (
     <div className="overflow-hidden">
       <ul
-        className="flex p-3 pl-4 h-16 w-full duration-150"
+        className="flex p-3 pl-4 h-16 w-[1500px] duration-150"
         onWheel={handleScroll}
         style={{transform: `translateX(${scroll}px)`}}
       >
