@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "./menueLogo/Menu";
+import Menu from "./menuelogo/Menu";
 import Perfil from "./perfil/Perfil";
 import Search from "./search/Search";
 
