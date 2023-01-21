@@ -13,8 +13,3 @@ body{
   background-color: #0f0f0f;
 
 }
-
-.feedfilter{
-  transition-duration: 0.15s;
-  transition-timing-function: cubic-bezier(0.05,0,0,1);
-}

@@ -41,7 +41,7 @@ function FeedFilter() {
   }
 
   return (
-    <div className="overflow-hidden w-full">
+    <div className="overflow-hidden w-full h-12">
       <ul
         className="flex p-3 pl-4 h-16 w-full duration-150"
         onWheel={handleScroll}
