@@ -5,7 +5,7 @@ import Search from "./search/Search";
 
 function Header() {
   return (
-  <header className="w-full h-14 flex justify-between items-center p-4">
+  <header className="w-full h-14 flex justify-between items-center pl-4 pr-11">
     <Menu />
     <Search />
     <Perfil />

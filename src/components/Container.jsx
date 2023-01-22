@@ -7,7 +7,7 @@ function Container() {
   return (
     <div className='flex'>
       <SidebarClose />
-      <div className='w-full'>
+      <div className='w-[95vw] pl-1 pr-7'>
       <FeedFilter />
       <Main />
       </div>

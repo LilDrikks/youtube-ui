@@ -7,7 +7,7 @@ import SidebarItem from './SidebarItem'
 
 function SidebarClose() {
   return (
-    <div className="w-16 h-full ml-1">
+    <div className="w-[5vw] h-full ml-1">
       <SidebarItem name="Início">
         <a href="#">
           <HomeSvg />
