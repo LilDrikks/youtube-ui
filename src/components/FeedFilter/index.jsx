@@ -41,14 +41,14 @@ function FeedFilter() {
   return (
     <div className="overflow-hidden h-12">
       <ul
-        className="flex pt-3 pb-3  h-16 duration-150"
+        className="flex pt-3 pb-3 h-16 duration-150"
         onWheel={handleScroll}
         style={{ transform: `translateX(${scroll}px)` }}
       >
         {listFilter.map((item, index) => (
           <li
             key={index}
-            className="text-[#f1f1f1] text-[14px] pl-3 cursor-pointer"
+            className="text-[#f1f1f1] text-[14px] pr-3 cursor-pointer"
           >
             <p
               className={`${
