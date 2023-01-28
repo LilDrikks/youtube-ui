@@ -1,34 +1,12 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import Store from "../../Provider/LocalStore";
 
 function FeedFilter() {
-  const listFilter = [
-    "Tudo",
-    "Música",
-    "Programação de computador...",
-    "Jogos",
-    "Mixes",
-    "Treinamento com peso",
-    "Ao vivo",
-    "Freestyle Rap",
-    "League of Legends",
-    "Podcast",
-    "Álbuns",
-    "Inteligência artificial",
-    "Psicologia",
-    "Pensamentos",
-    "Música Lo-fi",
-    "Música brasileira",
-    "R&B",
-    "Vocal Music",
-    "Enviados recentemente",
-    "Assistidos",
-    "Novidades para você",
-  ];
+  const store = useContext(Store)
   const [scroll, setScroll] = useState(0);
-
+  console.log(store);
   function handleScroll(e) {
     const element = e.currentTarget;
-
     if (e.deltaY > 0) {
       if (scroll < element.clientWidth - 2500 - 40) return;
       setScroll(scroll - 100);
@@ -45,7 +23,7 @@ function FeedFilter() {
         onWheel={handleScroll}
         style={{ transform: `translateX(${scroll}px)` }}
       >
-        {listFilter.map((item, index) => (
+        {store.listFilter.map((item, index) => (
           <li
             key={index}
             className="text-[#f1f1f1] text-[14px] pr-3 cursor-pointer"

@@ -3,7 +3,7 @@ import Container from "./components/Container"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App pt-1">
       <Header />
       <Container />
     </div>

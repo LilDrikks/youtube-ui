@@ -5,10 +5,10 @@ import SidebarClose from './Sidebar'
 
 function Container() {
   return (
-    <div className='flex bg-black w-full'>
+    <div className='flex w-full'>
       <div className='w-full flex'>
       <SidebarClose />
-      <div className='w-[94vw] pl-4'>
+      <div className='w-[93vw] pl-6'>
       <FeedFilter />
       <Main />
       </div>
